@@ -1,0 +1,57 @@
+name: goods_trace
+description: Ứng dụng quản lý sản phẩm sử dụng Flutter và Firebase.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  
+  # GetX - State Management
+  get: ^4.6.6
+  
+  # UI Components
+  flutter_screenutil: ^5.9.0
+  cached_network_image: ^3.3.0
+  image_picker: ^1.0.7
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  http: ^1.2.1
+  
+  # Utils
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  uuid: ^4.3.1
+  path_provider: ^2.1.1
+  logger: ^2.0.2
+  
+  # Linting
+  flutter_lints: ^3.0.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  build_runner: ^2.4.8
+
+# Flutter app icons configuration
+# flutter_launcher_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/logo.png
+ 

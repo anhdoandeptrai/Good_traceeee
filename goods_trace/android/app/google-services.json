@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65328497762",
+    "project_id": "khohang-edd30",
+    "storage_bucket": "khohang-edd30.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65328497762:android:e0b12f10294d293f46fd3b",
+        "android_client_info": {
+          "package_name": "com.example.goods_trace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9xnD0TA5UiQiq1eaBbyD7u7rY4EnbquY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
